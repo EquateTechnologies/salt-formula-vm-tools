@@ -1,4 +1,4 @@
-{% from "vmware-tools/map.jinja" import vmware with context %}
+{% from "vm-tools/map.jinja" import vmware with context %}
 remove-previous-vmware-versions:
   cmd.run:
     - name: rm VMwareTools*

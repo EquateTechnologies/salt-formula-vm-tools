@@ -1,5 +1,5 @@
 ================
-vmware-tools-formula
+vm-tools-formula
 ================
 
 A saltstack formula that can be used to setup vmware-tools or open-vm-tools on RHEL based systems.
@@ -15,7 +15,7 @@ Available states
 .. contents::
     :local:
 
-``vmware-tools``
+``vm-tools``
 ------------
 
 Installs the vmware-tools or open-vm-tools package based on OS version and then starts the associated service.
